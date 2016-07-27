@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LGAWSManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AWSCognitoIdentityPasswordAuthentication, AWSCognitoIdentityMultiFactorAuthentication>
 
 
 @end

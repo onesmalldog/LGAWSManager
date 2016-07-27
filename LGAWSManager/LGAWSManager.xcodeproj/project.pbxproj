@@ -98,6 +98,12 @@
 		FBF71C621D48A0B100032D33 /* AWSSESModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF71C0B1D48A0B100032D33 /* AWSSESModel.m */; };
 		FBF71C631D48A0B100032D33 /* AWSSESResources.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF71C0D1D48A0B100032D33 /* AWSSESResources.m */; };
 		FBF71C641D48A0B100032D33 /* AWSSESService.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF71C0F1D48A0B100032D33 /* AWSSESService.m */; };
+		FBF71C731D48B51000032D33 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF71C721D48B51000032D33 /* libz.tbd */; };
+		FBF71C751D48B51800032D33 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF71C741D48B51800032D33 /* AdSupport.framework */; };
+		FBF71C771D48B52500032D33 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF71C761D48B52500032D33 /* libobjc.tbd */; };
+		FBF71C791D48B53000032D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF71C781D48B53000032D33 /* libsqlite3.tbd */; };
+		FBF71C7B1D48B53900032D33 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF71C7A1D48B53900032D33 /* libiconv.tbd */; };
+		FBF71C7E1D48B5F200032D33 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF71C7D1D48B5F200032D33 /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -304,6 +310,13 @@
 		FBF71C0D1D48A0B100032D33 /* AWSSESResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSESResources.m; sourceTree = "<group>"; };
 		FBF71C0E1D48A0B100032D33 /* AWSSESService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSSESService.h; sourceTree = "<group>"; };
 		FBF71C0F1D48A0B100032D33 /* AWSSESService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSSESService.m; sourceTree = "<group>"; };
+		FBF71C721D48B51000032D33 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FBF71C741D48B51800032D33 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FBF71C761D48B52500032D33 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		FBF71C781D48B53000032D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FBF71C7A1D48B53900032D33 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		FBF71C7C1D48B5F200032D33 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FBF71C7D1D48B5F200032D33 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +324,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF71C7B1D48B53900032D33 /* libiconv.tbd in Frameworks */,
+				FBF71C791D48B53000032D33 /* libsqlite3.tbd in Frameworks */,
+				FBF71C771D48B52500032D33 /* libobjc.tbd in Frameworks */,
+				FBF71C751D48B51800032D33 /* AdSupport.framework in Frameworks */,
+				FBF71C731D48B51000032D33 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +338,11 @@
 		FBF71B0E1D48A06600032D33 = {
 			isa = PBXGroup;
 			children = (
+				FBF71C7A1D48B53900032D33 /* libiconv.tbd */,
+				FBF71C781D48B53000032D33 /* libsqlite3.tbd */,
+				FBF71C761D48B52500032D33 /* libobjc.tbd */,
+				FBF71C741D48B51800032D33 /* AdSupport.framework */,
+				FBF71C721D48B51000032D33 /* libz.tbd */,
 				FBF71B191D48A06600032D33 /* LGAWSManager */,
 				FBF71B181D48A06600032D33 /* Products */,
 			);
@@ -341,6 +364,8 @@
 				FBF71B1E1D48A06600032D33 /* AppDelegate.m */,
 				FBF71B201D48A06600032D33 /* ViewController.h */,
 				FBF71B211D48A06600032D33 /* ViewController.m */,
+				FBF71C7C1D48B5F200032D33 /* RegisterViewController.h */,
+				FBF71C7D1D48B5F200032D33 /* RegisterViewController.m */,
 				FBF71B231D48A06600032D33 /* Main.storyboard */,
 				FBF71B261D48A06600032D33 /* Assets.xcassets */,
 				FBF71B281D48A06600032D33 /* LaunchScreen.storyboard */,
@@ -917,6 +942,7 @@
 				FBF71C231D48A0B100032D33 /* AWSJKBigDecimal.m in Sources */,
 				FBF71C3F1D48A0B100032D33 /* AWSMTLReflection.m in Sources */,
 				FBF71C201D48A0B100032D33 /* AWSCognitoIdentityProviderService.m in Sources */,
+				FBF71C7E1D48B5F200032D33 /* RegisterViewController.m in Sources */,
 				FBF71C591D48A0B100032D33 /* AWSUICKeyChainStore.m in Sources */,
 				FBF71C321D48A0B100032D33 /* AWSCognitoIdentityResources.m in Sources */,
 				FBF71C481D48A0B100032D33 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */,
@@ -1097,6 +1123,7 @@
 				FBF71B301D48A06600032D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
