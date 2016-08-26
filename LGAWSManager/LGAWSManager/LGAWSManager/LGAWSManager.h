@@ -29,18 +29,18 @@
 /**
  *  Tag of user pool
  */
-#define UserPool @"dten_user"
+#define UserPool @"Your_Pool_ID"
 
 /**
  *  Configure your registration information, do this first
  */
-#define CognitoIdentityUserPoolId @"us-east-1_bDfyuBfz3"
-#define CognitoIdentityUserPoolAppClientId @"7na2u2oenq7usjc5qemli8h4os"
-#define CognitoIdentityUserPoolAppClientSecret @"qet0fdtc5sdf990bqmlh34olcfuoih6ivft8fa49r63tr7o7uc5"
+#define CognitoIdentityUserPoolId @"UserPoolID"
+#define CognitoIdentityUserPoolAppClientId @"UserPoolAppClientId"
+#define CognitoIdentityUserPoolAppClientSecret @"UserPoolAppClientSecret"
 
-#define IdentityPoolId @"us-east-1:cdc0bac2-5588-4982-b5d4-296d8cc3ac80"
-#define UnauthRoleArn @"arn:aws:iam::919886360521:role/Cognito_dten_appUnauth_Role"
-#define AuthRoleArn @"arn:aws:iam::919886360521:role/Cognito_dten_appAuth_Role"
+#define IdentityPoolId @"IdentityPoolId"
+#define UnauthRoleArn @"UnauthRoleArn"
+#define AuthRoleArn @"AuthRoleArn"
 
 /**
  *  Config by yourself, this is attribute type when Create Attribute Type used(method 'createAttributeTypeWithName').
@@ -55,7 +55,7 @@
 /**
  *  This config is for S3, config this first and use 'upLoadImage:' method
  */
-#define BucketName @"profile.dten.com"
+#define BucketName @"YourBucketName"
 
 // end
 #pragma mark ********* Config area end *********
