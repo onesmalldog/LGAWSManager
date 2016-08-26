@@ -47,10 +47,9 @@
  */
 #define AttributeTypePhone @"phone_number"
 #define AttributeTypeEmail @"email"
-#define AttributeTypeDTenID @"custom:dten_mail"
-#define AttributeTypeFirstName @"custom:first_name"
-#define AttributeTypeLastName @"custom:last_name"
-#define AttributeTypeSync @"custom:sync_data"
+#define AttributeTypeName1 @"Named here"
+#define AttributeTypeName2 @"Named here"
+#define AttributeTypeName3 @"Named here"
 
 /**
  *  This config is for S3, config this first and use 'upLoadImage:' method
