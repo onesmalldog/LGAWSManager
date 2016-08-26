@@ -10,7 +10,6 @@
 
 #import "LGAWSManager.h"
 #import "AWSSES.h"
-#import "DTGetFile.h"
 
 @interface LGAWSManager()
 
