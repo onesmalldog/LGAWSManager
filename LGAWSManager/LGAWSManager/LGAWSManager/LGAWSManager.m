@@ -437,7 +437,6 @@
                         downloadRequest.downloadingFileURL = downloadingFileURL;
                         _downloadObject = downloadRequest;
                         
-// 下面的语句应该放到if判断完，并且加上一个判断
                         dispatch_async(dispatch_get_main_queue(), ^{
                             
                             AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
